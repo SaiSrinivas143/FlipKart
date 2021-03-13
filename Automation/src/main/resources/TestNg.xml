@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Madison Island">
+ 
+	<parameter name="browser" value="chrome" />
+
+	<listeners>
+		<listener class-name="com.htc.reports.TestListenerHtml" />
+	</listeners>
+
+	<test name="should login and purchase the product for valid user">
+
+		<classes>
+			<class name="com.htc.automating.test.LoginTest" />
+			<class name="com.htc.automating.test.ProductOrderTest" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

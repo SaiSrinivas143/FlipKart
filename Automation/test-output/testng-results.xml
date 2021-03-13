@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="10" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Entering into login page]]>
+    </line>
+    <line>
+      <![CDATA[Credentials are entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on login button successfully]]>
+    </line>
+    <line>
+      <![CDATA[Entering into login page]]>
+    </line>
+    <line>
+      <![CDATA[Credentials are entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on login button successfully]]>
+    </line>
+    <line>
+      <![CDATA[Entering into login page]]>
+    </line>
+    <line>
+      <![CDATA[Credentials are entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on login button successfully]]>
+    </line>
+    <line>
+      <![CDATA[Entering into login page]]>
+    </line>
+    <line>
+      <![CDATA[Credentials are entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on login button successfully]]>
+    </line>
+    <line>
+      <![CDATA[Entering into login page]]>
+    </line>
+    <line>
+      <![CDATA[Credentials are entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on login button successfully]]>
+    </line>
+    <line>
+      <![CDATA[Searching for a product]]>
+    </line>
+    <line>
+      <![CDATA[Checkout button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Got address for shipping the product]]>
+    </line>
+    <line>
+      <![CDATA[payment is successful]]>
+    </line>
+    <line>
+      <![CDATA[Entering into login page]]>
+    </line>
+    <line>
+      <![CDATA[Credentials are entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on login button successfully]]>
+    </line>
+    <line>
+      <![CDATA[Searching for a product]]>
+    </line>
+    <line>
+      <![CDATA[Checkout button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Got address for shipping the product]]>
+    </line>
+    <line>
+      <![CDATA[payment is successful]]>
+    </line>
+    <line>
+      <![CDATA[Entering into login page]]>
+    </line>
+    <line>
+      <![CDATA[Credentials are entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on login button successfully]]>
+    </line>
+    <line>
+      <![CDATA[Searching for a product]]>
+    </line>
+    <line>
+      <![CDATA[Checkout button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Got address for shipping the product]]>
+    </line>
+    <line>
+      <![CDATA[payment is successful]]>
+    </line>
+    <line>
+      <![CDATA[Entering into login page]]>
+    </line>
+    <line>
+      <![CDATA[Credentials are entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on login button successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-03-13T12:56:54 IST" name="Madison Island" finished-at="2021-03-13T13:01:12 IST" duration-ms="258144">
+    <groups>
+    </groups>
+    <test started-at="2021-03-13T12:56:54 IST" name="should login and purchase the product for valid user" finished-at="2021-03-13T13:01:12 IST" duration-ms="258144">
+      <class name="com.htc.automating.test.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.htc.automating.test.LoginTest@272ed83b]" started-at="2021-03-13T12:56:39 IST" name="setup" finished-at="2021-03-13T12:56:54 IST" duration-ms="15263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@272ed83b]" started-at="2021-03-13T12:56:55 IST" name="validAndInvalidLoginTest_ShouldLoginForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T12:57:18 IST" duration-ms="22347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First_name=ranadev, Email=abcdefghijklmnopqrstuv@gmail.com, Last_Name=Devasena, DOB="23-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering into login page]]>
+            </line>
+            <line>
+              <![CDATA[Credentials are entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on login button successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validAndInvalidLoginTest_ShouldLoginForValidUser -->
+        <test-method signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@272ed83b]" started-at="2021-03-13T12:57:18 IST" name="validAndInvalidLoginTest_ShouldLoginForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T12:57:38 IST" duration-ms="20709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First_name=Billa, Email=abcdefghijklmnopqrstu@gmail.com, Last_Name=Devasena, DOB="24-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering into login page]]>
+            </line>
+            <line>
+              <![CDATA[Credentials are entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on login button successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validAndInvalidLoginTest_ShouldLoginForValidUser -->
+        <test-method signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@272ed83b]" started-at="2021-03-13T12:57:38 IST" name="validAndInvalidLoginTest_ShouldLoginForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T12:57:59 IST" duration-ms="20802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First_name=user123, Email=abcdefghijkpqrstuv@gmail.com, Last_Name=Devasena, DOB="25-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering into login page]]>
+            </line>
+            <line>
+              <![CDATA[Credentials are entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on login button successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validAndInvalidLoginTest_ShouldLoginForValidUser -->
+        <test-method signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@272ed83b]" started-at="2021-03-13T12:57:59 IST" name="validAndInvalidLoginTest_ShouldLoginForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T12:58:17 IST" duration-ms="17551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First_name=HiHello, Email=a@gmail.com, Last_Name= World, DOB="26-08-2000", Mobile="1234567890", Password=jwcbkjbqdc, IsValid=no}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering into login page]]>
+            </line>
+            <line>
+              <![CDATA[Credentials are entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on login button successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validAndInvalidLoginTest_ShouldLoginForValidUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.htc.automating.test.LoginTest@272ed83b]" started-at="2021-03-13T13:01:13 IST" name="tearDown" finished-at="2021-03-13T13:01:13 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.htc.automating.test.LoginTest -->
+      <class name="com.htc.automating.test.ProductOrderTest">
+        <test-method signature="ProductOrderTest_ShouldCheckoutForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.ProductOrderTest@41fecb8b]" started-at="2021-03-13T12:58:17 IST" name="ProductOrderTest_ShouldCheckoutForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T12:59:13 IST" duration-ms="56004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First_name=ranadev, Email=abcdefghijklmnopqrstuv@gmail.com, Last_Name=Devasena, DOB="23-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering into login page]]>
+            </line>
+            <line>
+              <![CDATA[Credentials are entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on login button successfully]]>
+            </line>
+            <line>
+              <![CDATA[Searching for a product]]>
+            </line>
+            <line>
+              <![CDATA[Checkout button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Got address for shipping the product]]>
+            </line>
+            <line>
+              <![CDATA[payment is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProductOrderTest_ShouldCheckoutForValidUser -->
+        <test-method signature="ProductOrderTest_ShouldCheckoutForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.ProductOrderTest@41fecb8b]" started-at="2021-03-13T12:59:13 IST" name="ProductOrderTest_ShouldCheckoutForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T13:00:03 IST" duration-ms="49807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First_name=Billa, Email=abcdefghijklmnopqrstu@gmail.com, Last_Name=Devasena, DOB="24-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering into login page]]>
+            </line>
+            <line>
+              <![CDATA[Credentials are entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on login button successfully]]>
+            </line>
+            <line>
+              <![CDATA[Searching for a product]]>
+            </line>
+            <line>
+              <![CDATA[Checkout button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Got address for shipping the product]]>
+            </line>
+            <line>
+              <![CDATA[payment is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProductOrderTest_ShouldCheckoutForValidUser -->
+        <test-method signature="ProductOrderTest_ShouldCheckoutForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.ProductOrderTest@41fecb8b]" started-at="2021-03-13T13:00:03 IST" name="ProductOrderTest_ShouldCheckoutForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T13:00:54 IST" duration-ms="51610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First_name=user123, Email=abcdefghijkpqrstuv@gmail.com, Last_Name=Devasena, DOB="25-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering into login page]]>
+            </line>
+            <line>
+              <![CDATA[Credentials are entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on login button successfully]]>
+            </line>
+            <line>
+              <![CDATA[Searching for a product]]>
+            </line>
+            <line>
+              <![CDATA[Checkout button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Got address for shipping the product]]>
+            </line>
+            <line>
+              <![CDATA[payment is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProductOrderTest_ShouldCheckoutForValidUser -->
+        <test-method signature="ProductOrderTest_ShouldCheckoutForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.ProductOrderTest@41fecb8b]" started-at="2021-03-13T13:00:54 IST" name="ProductOrderTest_ShouldCheckoutForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T13:01:12 IST" duration-ms="17876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First_name=HiHello, Email=a@gmail.com, Last_Name= World, DOB="26-08-2000", Mobile="1234567890", Password=jwcbkjbqdc, IsValid=no}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering into login page]]>
+            </line>
+            <line>
+              <![CDATA[Credentials are entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on login button successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProductOrderTest_ShouldCheckoutForValidUser -->
+      </class> <!-- com.htc.automating.test.ProductOrderTest -->
+    </test> <!-- should login and purchase the product for valid user -->
+  </suite> <!-- Madison Island -->
+</testng-results>

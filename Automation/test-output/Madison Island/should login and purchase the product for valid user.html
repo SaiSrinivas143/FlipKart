@@ -1,0 +1,203 @@
+<html>
+<head>
+<title>TestNG:  should login and purchase the product for valid user</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>should login and purchase the product for valid user</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Mar 13 12:56:54 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>258 seconds (258144 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.htc.automating.test.ProductOrderTest.ProductOrderTest_ShouldCheckoutForValidUser()'><b>ProductOrderTest_ShouldCheckoutForValidUser</b><br>Test class: com.htc.automating.test.ProductOrderTest<br>Parameters: {First_name=ranadev, Email=abcdefghijklmnopqrstuv@gmail.com, Last_Name=Devasena, DOB="23-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}<br/>
+<a href="#Output-1534888240" onClick='toggleBox("Output-1534888240", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1534888240" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1534888240">
+Entering into login page<br/>
+Credentials are entered successfully<br/>
+Clicked on login button successfully<br/>
+Searching for a product<br/>
+Checkout button clicked<br/>
+Got address for shipping the product<br/>
+payment is successful<br/>
+</div>
+</td>
+<td></td>
+<td>56</td>
+<td>com.htc.automating.test.ProductOrderTest@41fecb8b</td></tr>
+<tr>
+<td title='com.htc.automating.test.ProductOrderTest.ProductOrderTest_ShouldCheckoutForValidUser()'><b>ProductOrderTest_ShouldCheckoutForValidUser</b><br>Test class: com.htc.automating.test.ProductOrderTest<br>Parameters: {First_name=Billa, Email=abcdefghijklmnopqrstu@gmail.com, Last_Name=Devasena, DOB="24-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}<br/>
+<a href="#Output-83554564" onClick='toggleBox("Output-83554564", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-83554564" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-83554564">
+Entering into login page<br/>
+Credentials are entered successfully<br/>
+Clicked on login button successfully<br/>
+Searching for a product<br/>
+Checkout button clicked<br/>
+Got address for shipping the product<br/>
+payment is successful<br/>
+</div>
+</td>
+<td></td>
+<td>49</td>
+<td>com.htc.automating.test.ProductOrderTest@41fecb8b</td></tr>
+<tr>
+<td title='com.htc.automating.test.ProductOrderTest.ProductOrderTest_ShouldCheckoutForValidUser()'><b>ProductOrderTest_ShouldCheckoutForValidUser</b><br>Test class: com.htc.automating.test.ProductOrderTest<br>Parameters: {First_name=user123, Email=abcdefghijkpqrstuv@gmail.com, Last_Name=Devasena, DOB="25-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}<br/>
+<a href="#Output-923727115" onClick='toggleBox("Output-923727115", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-923727115" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-923727115">
+Entering into login page<br/>
+Credentials are entered successfully<br/>
+Clicked on login button successfully<br/>
+Searching for a product<br/>
+Checkout button clicked<br/>
+Got address for shipping the product<br/>
+payment is successful<br/>
+</div>
+</td>
+<td></td>
+<td>51</td>
+<td>com.htc.automating.test.ProductOrderTest@41fecb8b</td></tr>
+<tr>
+<td title='com.htc.automating.test.ProductOrderTest.ProductOrderTest_ShouldCheckoutForValidUser()'><b>ProductOrderTest_ShouldCheckoutForValidUser</b><br>Test class: com.htc.automating.test.ProductOrderTest<br>Parameters: {First_name=HiHello, Email=a@gmail.com, Last_Name= World, DOB="26-08-2000", Mobile="1234567890", Password=jwcbkjbqdc, IsValid=no}<br/>
+<a href="#Output-1286497960" onClick='toggleBox("Output-1286497960", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1286497960" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1286497960">
+Entering into login page<br/>
+Credentials are entered successfully<br/>
+Clicked on login button successfully<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.htc.automating.test.ProductOrderTest@41fecb8b</td></tr>
+<tr>
+<td title='com.htc.automating.test.LoginTest.validAndInvalidLoginTest_ShouldLoginForValidUser()'><b>validAndInvalidLoginTest_ShouldLoginForValidUser</b><br>Test class: com.htc.automating.test.LoginTest<br>Parameters: {First_name=ranadev, Email=abcdefghijklmnopqrstuv@gmail.com, Last_Name=Devasena, DOB="23-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}<br/>
+<a href="#Output-1673389762" onClick='toggleBox("Output-1673389762", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1673389762" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1673389762">
+Entering into login page<br/>
+Credentials are entered successfully<br/>
+Clicked on login button successfully<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.htc.automating.test.LoginTest@272ed83b</td></tr>
+<tr>
+<td title='com.htc.automating.test.LoginTest.validAndInvalidLoginTest_ShouldLoginForValidUser()'><b>validAndInvalidLoginTest_ShouldLoginForValidUser</b><br>Test class: com.htc.automating.test.LoginTest<br>Parameters: {First_name=Billa, Email=abcdefghijklmnopqrstu@gmail.com, Last_Name=Devasena, DOB="24-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}<br/>
+<a href="#Output-896945135" onClick='toggleBox("Output-896945135", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-896945135" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-896945135">
+Entering into login page<br/>
+Credentials are entered successfully<br/>
+Clicked on login button successfully<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.htc.automating.test.LoginTest@272ed83b</td></tr>
+<tr>
+<td title='com.htc.automating.test.LoginTest.validAndInvalidLoginTest_ShouldLoginForValidUser()'><b>validAndInvalidLoginTest_ShouldLoginForValidUser</b><br>Test class: com.htc.automating.test.LoginTest<br>Parameters: {First_name=user123, Email=abcdefghijkpqrstuv@gmail.com, Last_Name=Devasena, DOB="25-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}<br/>
+<a href="#Output-1859216983" onClick='toggleBox("Output-1859216983", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1859216983" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1859216983">
+Entering into login page<br/>
+Credentials are entered successfully<br/>
+Clicked on login button successfully<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.htc.automating.test.LoginTest@272ed83b</td></tr>
+<tr>
+<td title='com.htc.automating.test.LoginTest.validAndInvalidLoginTest_ShouldLoginForValidUser()'><b>validAndInvalidLoginTest_ShouldLoginForValidUser</b><br>Test class: com.htc.automating.test.LoginTest<br>Parameters: {First_name=HiHello, Email=a@gmail.com, Last_Name= World, DOB="26-08-2000", Mobile="1234567890", Password=jwcbkjbqdc, IsValid=no}<br/>
+<a href="#Output-632206764" onClick='toggleBox("Output-632206764", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-632206764" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-632206764">
+Entering into login page<br/>
+Credentials are entered successfully<br/>
+Clicked on login button successfully<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.htc.automating.test.LoginTest@272ed83b</td></tr>
+</table><p>
+</body>
+</html>
