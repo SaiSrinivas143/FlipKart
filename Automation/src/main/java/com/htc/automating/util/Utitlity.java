@@ -18,23 +18,10 @@ import com.htc.automating.base.BaseTest;
 import com.htc.automating.globalvariables.GlobalVariables;
 import com.htc.reports.ExtentTestReport;
 
-public class Utitlity{
-	
-	private static WebDriver driver;
-	//to make sigleton class, need to set the constructor as private
-	public Utitlity(WebDriver driver) {
-		this.driver=driver;
-	}
-	
-	/*
-	 * static Utitlity utl = new Utitlity(driver);
-	 * 
-	 * public static Utitlity getInstance(){ return utl;
-	 * 
-	 * }
-	 */
+public class Utitlity {
 	
 	JavascriptExecutor js;
+	protected static WebDriver driver=BaseTest.driver;
 	
 	public boolean isPageReady() {	
 		js=(JavascriptExecutor)driver;

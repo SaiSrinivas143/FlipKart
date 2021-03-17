@@ -14,7 +14,7 @@ public class ExtentHtmlReport {
 	private static String timestamp= new SimpleDateFormat("yyyy_MM_dd_hh_mm_ss").format(new Date());
     private static String reportFileName = "Test-Automaton-Report-"+timestamp+".html";
     private static String fileSeperator = System.getProperty("file.separator");
-    private static String reportFilepath = GlobalVariables.HTML_REPORT_PATH +fileSeperator+ "TestReport";
+    private static String reportFilepath = GlobalVariables.HTML_REPORT_PATH +fileSeperator+ "TestReport-"+timestamp;
     private static String reportFileLocation =  reportFilepath +fileSeperator+ reportFileName;
   
  

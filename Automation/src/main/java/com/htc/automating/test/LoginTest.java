@@ -15,16 +15,15 @@ import com.htc.reports.TestListenerHtml;
 public class LoginTest extends BaseTest{
 	
 	@Test(dataProvider = "LoginCredentials",dataProviderClass = com.htc.automating.base.BaseDataProvider.class)
-	public void validAndInvalidLoginTest_ShouldLoginForValidUser(Map<Object,Object> mapdata) throws IOException {
-		login.doLogIn(mapdata.get("Email").toString(), mapdata.get("Password").toString());
+	public void validAndInvalidLoginTest_ShouldLoginForValidUser(Map<String,String> mapdata) throws IOException {
+		login.doLogIn(mapdata.get("Email"), mapdata.get("Password"));
 		if(mapdata.get("IsValid").equals("yes")) {
 			Assert.assertTrue(login.isMyDashboardVisible());
-			//login.popupTheSuccessMsg();
+			login.popupTheSuccessMsg();
 			login.doLogOut();
 		}
 		
 		if(mapdata.get("IsValid").equals("no")) {
-			//Assert.fail();
 			Assert.assertTrue(login.isErrorMsgDisplayed());
 		}	
 	}

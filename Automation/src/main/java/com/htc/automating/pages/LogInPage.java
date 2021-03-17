@@ -1,18 +1,19 @@
 package com.htc.automating.pages;
 import java.io.IOException;
 
+import org.openqa.selenium.ElementNotInteractableException;
+import org.openqa.selenium.ElementNotSelectableException;
+import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Reporter;
-
-import com.htc.automating.util.Utitlity;
 public class LogInPage extends BasePage{
 	
 	private Reporter reporter;
 	
-	public LogInPage(WebDriver driver) {
-		super(driver);
+	public LogInPage() {
+		super();
 	}
 	
 	@FindBy(xpath="//span[text()=\"Account\"][1]")
@@ -57,31 +58,43 @@ public class LogInPage extends BasePage{
 		return errormsg.isDisplayed();
 	}
 	
-	public void doLogIn(String Email,String Password) throws IOException {
-		waitUtilThePageLoad();
-		waitUntillTheElementToBeClickable(account);
-		addColor(account);
-		this.goToLoginPrompt();
+	public void doLogIn(String Email,String Password) throws IOException, ElementNotVisibleException{
+		try {
+			waitUtilThePageLoad();
+			waitUntillTheElementToBeClickable(account);
+			addColor(account);
+			this.goToLoginPrompt();
+			
+			reporter.log("Entering into login page");
+			javaSleep(5000);
+			waitUntillTheElementToBeClickable(email);
+			this.email.sendKeys(Email);
+			waitUntillTheElementToBeClickable(password);
+			this.password.sendKeys(Password);
+			reporter.log("Credentials are entered successfully");
 		
-		reporter.log("Entering into login page");
-		javaSleep(5000);
-		waitUntillTheElementToBeClickable(email);
-		this.email.sendKeys(Email);
-		waitUntillTheElementToBeClickable(password);
-		this.password.sendKeys(Password);
-		reporter.log("Credentials are entered successfully");
-	
-		javaSleep(10000);
-		waitUntillTheElementToBeClickable(loginbutton);
-		this.loginbutton.click();
-		reporter.log("Clicked on login button successfully");
+			javaSleep(10000);
+			waitUntillTheElementToBeClickable(loginbutton);
+			this.loginbutton.click();
+			reporter.log("Clicked on login button successfully");
+		}catch(ElementNotInteractableException e) {
+			e.getMessage();
+		}catch(ElementNotSelectableException e) {
+			e.getMessage();
+		}
 	}
 	
-	public void popupTheSuccessMsg() {
-		waitUtilThePageLoad();
-		createAlert("Login is success");
-		javaSleep(3000);
-		this.driver.switchTo().alert().accept();
+	public void popupTheSuccessMsg() throws ElementNotVisibleException {
+		try {
+			waitUtilThePageLoad();
+			createAlert("Login is success");
+			javaSleep(3000);
+			driver.switchTo().alert().accept();
+		}catch(ElementNotInteractableException e) {
+			e.getMessage();
+		}catch(ElementNotSelectableException e) {
+			e.getMessage();
+		}
 		
 	}
 }

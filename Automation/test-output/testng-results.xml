@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="10" passed="8" failed="0" skipped="0">
+<testng-results skipped="0" failed="4" ignored="2" total="10" passed="4">
   <reporter-output>
     <line>
       <![CDATA[Entering into login page]]>
@@ -37,85 +37,13 @@
     <line>
       <![CDATA[Clicked on login button successfully]]>
     </line>
-    <line>
-      <![CDATA[Entering into login page]]>
-    </line>
-    <line>
-      <![CDATA[Credentials are entered successfully]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on login button successfully]]>
-    </line>
-    <line>
-      <![CDATA[Searching for a product]]>
-    </line>
-    <line>
-      <![CDATA[Checkout button clicked]]>
-    </line>
-    <line>
-      <![CDATA[Got address for shipping the product]]>
-    </line>
-    <line>
-      <![CDATA[payment is successful]]>
-    </line>
-    <line>
-      <![CDATA[Entering into login page]]>
-    </line>
-    <line>
-      <![CDATA[Credentials are entered successfully]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on login button successfully]]>
-    </line>
-    <line>
-      <![CDATA[Searching for a product]]>
-    </line>
-    <line>
-      <![CDATA[Checkout button clicked]]>
-    </line>
-    <line>
-      <![CDATA[Got address for shipping the product]]>
-    </line>
-    <line>
-      <![CDATA[payment is successful]]>
-    </line>
-    <line>
-      <![CDATA[Entering into login page]]>
-    </line>
-    <line>
-      <![CDATA[Credentials are entered successfully]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on login button successfully]]>
-    </line>
-    <line>
-      <![CDATA[Searching for a product]]>
-    </line>
-    <line>
-      <![CDATA[Checkout button clicked]]>
-    </line>
-    <line>
-      <![CDATA[Got address for shipping the product]]>
-    </line>
-    <line>
-      <![CDATA[payment is successful]]>
-    </line>
-    <line>
-      <![CDATA[Entering into login page]]>
-    </line>
-    <line>
-      <![CDATA[Credentials are entered successfully]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on login button successfully]]>
-    </line>
   </reporter-output>
-  <suite started-at="2021-03-13T12:56:54 IST" name="Madison Island" finished-at="2021-03-13T13:01:12 IST" duration-ms="258144">
+  <suite name="Madison Island" duration-ms="141040" started-at="2021-03-17T19:21:05 IST" finished-at="2021-03-17T19:23:26 IST">
     <groups>
     </groups>
-    <test started-at="2021-03-13T12:56:54 IST" name="should login and purchase the product for valid user" finished-at="2021-03-13T13:01:12 IST" duration-ms="258144">
+    <test name="should login and purchase the product for valid user" duration-ms="141040" started-at="2021-03-17T19:21:05 IST" finished-at="2021-03-17T19:23:26 IST">
       <class name="com.htc.automating.test.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.htc.automating.test.LoginTest@272ed83b]" started-at="2021-03-13T12:56:39 IST" name="setup" finished-at="2021-03-13T12:56:54 IST" duration-ms="15263" status="PASS">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.htc.automating.test.LoginTest@76f2b07d]" name="setup" is-config="true" duration-ms="9847" started-at="2021-03-17T19:20:55 IST" finished-at="2021-03-17T19:21:05 IST">
           <params>
             <param index="0">
               <value>
@@ -126,11 +54,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@272ed83b]" started-at="2021-03-13T12:56:55 IST" name="validAndInvalidLoginTest_ShouldLoginForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T12:57:18 IST" duration-ms="22347" status="PASS">
+        <test-method status="PASS" signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@76f2b07d]" name="validAndInvalidLoginTest_ShouldLoginForValidUser" duration-ms="25511" started-at="2021-03-17T19:21:08 IST" data-provider="LoginCredentials" finished-at="2021-03-17T19:21:34 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{First_name=ranadev, Email=abcdefghijklmnopqrstuv@gmail.com, Last_Name=Devasena, DOB="23-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}]]>
+                <![CDATA[{Email=abcdefghijklmnopqrstuv@gmail.com, color=Red, Size=s, Product=product-collection-image-404, Quantity=1, City=Nellore, Mobile=1234567890, Last_Name=Devasena, DOB=23-08-2000, Search=jeans, Zipcode=123456, Country=IN, Street=uwvd, Password=password1, IsValid=yes}]]>
               </value>
             </param>
           </params>
@@ -146,11 +74,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- validAndInvalidLoginTest_ShouldLoginForValidUser -->
-        <test-method signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@272ed83b]" started-at="2021-03-13T12:57:18 IST" name="validAndInvalidLoginTest_ShouldLoginForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T12:57:38 IST" duration-ms="20709" status="PASS">
+        <test-method status="PASS" signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@76f2b07d]" name="validAndInvalidLoginTest_ShouldLoginForValidUser" duration-ms="25022" started-at="2021-03-17T19:21:40 IST" data-provider="LoginCredentials" finished-at="2021-03-17T19:22:05 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{First_name=Billa, Email=abcdefghijklmnopqrstu@gmail.com, Last_Name=Devasena, DOB="24-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}]]>
+                <![CDATA[{Email=abcdefghijklmnopqrstu@gmail.com, color=Black, Size=s, Product=product-collection-image-417, Quantity=1, City=Nellore, Mobile=1234567891, Last_Name=Devasena, DOB=24-08-2000, Search=jeans, Zipcode=123457, Country=IN, Street=uwvd, Password=password1, IsValid=yes}]]>
               </value>
             </param>
           </params>
@@ -166,11 +94,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- validAndInvalidLoginTest_ShouldLoginForValidUser -->
-        <test-method signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@272ed83b]" started-at="2021-03-13T12:57:38 IST" name="validAndInvalidLoginTest_ShouldLoginForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T12:57:59 IST" duration-ms="20802" status="PASS">
+        <test-method status="PASS" signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@76f2b07d]" name="validAndInvalidLoginTest_ShouldLoginForValidUser" duration-ms="23961" started-at="2021-03-17T19:22:11 IST" data-provider="LoginCredentials" finished-at="2021-03-17T19:22:35 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{First_name=user123, Email=abcdefghijkpqrstuv@gmail.com, Last_Name=Devasena, DOB="25-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}]]>
+                <![CDATA[{Email=abcdefghijkpqrstuv@gmail.com, color=Red, Size=s, Product=product-collection-image-404, Quantity=1, City=Nellore, Mobile=1234567892, Last_Name=Devasena, DOB=25-08-2000, Search=jeans, Zipcode=123458, Country=IN, Street=uwvd, Password=password1, IsValid=yes}]]>
               </value>
             </param>
           </params>
@@ -186,11 +114,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- validAndInvalidLoginTest_ShouldLoginForValidUser -->
-        <test-method signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@272ed83b]" started-at="2021-03-13T12:57:59 IST" name="validAndInvalidLoginTest_ShouldLoginForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T12:58:17 IST" duration-ms="17551" status="PASS">
+        <test-method status="PASS" signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@76f2b07d]" name="validAndInvalidLoginTest_ShouldLoginForValidUser" duration-ms="17430" started-at="2021-03-17T19:22:41 IST" data-provider="LoginCredentials" finished-at="2021-03-17T19:22:58 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{First_name=HiHello, Email=a@gmail.com, Last_Name= World, DOB="26-08-2000", Mobile="1234567890", Password=jwcbkjbqdc, IsValid=no}]]>
+                <![CDATA[{Email=a@gmail.com, color=Red, Size=s, Product=product-collection-image-404, Quantity=1, City=Nellore, Mobile=1234567893, Last_Name= World, DOB=26-08-2000, Search=jeans, Zipcode=123459, Country=IN, Street=uwvd, Password=jwcbkjbqdc, IsValid=no}]]>
               </value>
             </param>
           </params>
@@ -206,126 +134,194 @@
             </line>
           </reporter-output>
         </test-method> <!-- validAndInvalidLoginTest_ShouldLoginForValidUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.htc.automating.test.LoginTest@272ed83b]" started-at="2021-03-13T13:01:13 IST" name="tearDown" finished-at="2021-03-13T13:01:13 IST" duration-ms="198" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.htc.automating.test.LoginTest@76f2b07d]" name="tearDown" is-config="true" duration-ms="237" started-at="2021-03-17T19:23:27 IST" finished-at="2021-03-17T19:23:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.htc.automating.test.LoginTest -->
       <class name="com.htc.automating.test.ProductOrderTest">
-        <test-method signature="ProductOrderTest_ShouldCheckoutForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.ProductOrderTest@41fecb8b]" started-at="2021-03-13T12:58:17 IST" name="ProductOrderTest_ShouldCheckoutForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T12:59:13 IST" duration-ms="56004" status="PASS">
+        <test-method status="FAIL" signature="ProductOrderTest_ShouldCheckoutForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.ProductOrderTest@704a52ec]" name="ProductOrderTest_ShouldCheckoutForValidUser" duration-ms="2" started-at="2021-03-17T19:23:04 IST" data-provider="LoginCredentials" finished-at="2021-03-17T19:23:04 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{First_name=ranadev, Email=abcdefghijklmnopqrstuv@gmail.com, Last_Name=Devasena, DOB="23-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}]]>
+                <![CDATA[{Email=abcdefghijklmnopqrstuv@gmail.com, color=Red, Size=s, Product=product-collection-image-404, Quantity=1, City=Nellore, Mobile=1234567890, Last_Name=Devasena, DOB=23-08-2000, Search=jeans, Zipcode=123456, Country=IN, Street=uwvd, Password=password1, IsValid=yes}]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.htc.automating.test.ProductOrderTest.ProductOrderTest_ShouldCheckoutForValidUser(ProductOrderTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
-            <line>
-              <![CDATA[Entering into login page]]>
-            </line>
-            <line>
-              <![CDATA[Credentials are entered successfully]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on login button successfully]]>
-            </line>
-            <line>
-              <![CDATA[Searching for a product]]>
-            </line>
-            <line>
-              <![CDATA[Checkout button clicked]]>
-            </line>
-            <line>
-              <![CDATA[Got address for shipping the product]]>
-            </line>
-            <line>
-              <![CDATA[payment is successful]]>
-            </line>
           </reporter-output>
         </test-method> <!-- ProductOrderTest_ShouldCheckoutForValidUser -->
-        <test-method signature="ProductOrderTest_ShouldCheckoutForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.ProductOrderTest@41fecb8b]" started-at="2021-03-13T12:59:13 IST" name="ProductOrderTest_ShouldCheckoutForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T13:00:03 IST" duration-ms="49807" status="PASS">
+        <test-method status="FAIL" signature="ProductOrderTest_ShouldCheckoutForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.ProductOrderTest@704a52ec]" name="ProductOrderTest_ShouldCheckoutForValidUser" duration-ms="3" started-at="2021-03-17T19:23:09 IST" data-provider="LoginCredentials" finished-at="2021-03-17T19:23:09 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{First_name=Billa, Email=abcdefghijklmnopqrstu@gmail.com, Last_Name=Devasena, DOB="24-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}]]>
+                <![CDATA[{Email=abcdefghijklmnopqrstu@gmail.com, color=Black, Size=s, Product=product-collection-image-417, Quantity=1, City=Nellore, Mobile=1234567891, Last_Name=Devasena, DOB=24-08-2000, Search=jeans, Zipcode=123457, Country=IN, Street=uwvd, Password=password1, IsValid=yes}]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.htc.automating.test.ProductOrderTest.ProductOrderTest_ShouldCheckoutForValidUser(ProductOrderTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
-            <line>
-              <![CDATA[Entering into login page]]>
-            </line>
-            <line>
-              <![CDATA[Credentials are entered successfully]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on login button successfully]]>
-            </line>
-            <line>
-              <![CDATA[Searching for a product]]>
-            </line>
-            <line>
-              <![CDATA[Checkout button clicked]]>
-            </line>
-            <line>
-              <![CDATA[Got address for shipping the product]]>
-            </line>
-            <line>
-              <![CDATA[payment is successful]]>
-            </line>
           </reporter-output>
         </test-method> <!-- ProductOrderTest_ShouldCheckoutForValidUser -->
-        <test-method signature="ProductOrderTest_ShouldCheckoutForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.ProductOrderTest@41fecb8b]" started-at="2021-03-13T13:00:03 IST" name="ProductOrderTest_ShouldCheckoutForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T13:00:54 IST" duration-ms="51610" status="PASS">
+        <test-method status="FAIL" signature="ProductOrderTest_ShouldCheckoutForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.ProductOrderTest@704a52ec]" name="ProductOrderTest_ShouldCheckoutForValidUser" duration-ms="40" started-at="2021-03-17T19:23:15 IST" data-provider="LoginCredentials" finished-at="2021-03-17T19:23:15 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{First_name=user123, Email=abcdefghijkpqrstuv@gmail.com, Last_Name=Devasena, DOB="25-08-2000", Mobile="1234567890", Password=password1, IsValid=yes}]]>
+                <![CDATA[{Email=abcdefghijkpqrstuv@gmail.com, color=Red, Size=s, Product=product-collection-image-404, Quantity=1, City=Nellore, Mobile=1234567892, Last_Name=Devasena, DOB=25-08-2000, Search=jeans, Zipcode=123458, Country=IN, Street=uwvd, Password=password1, IsValid=yes}]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.htc.automating.test.ProductOrderTest.ProductOrderTest_ShouldCheckoutForValidUser(ProductOrderTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
-            <line>
-              <![CDATA[Entering into login page]]>
-            </line>
-            <line>
-              <![CDATA[Credentials are entered successfully]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on login button successfully]]>
-            </line>
-            <line>
-              <![CDATA[Searching for a product]]>
-            </line>
-            <line>
-              <![CDATA[Checkout button clicked]]>
-            </line>
-            <line>
-              <![CDATA[Got address for shipping the product]]>
-            </line>
-            <line>
-              <![CDATA[payment is successful]]>
-            </line>
           </reporter-output>
         </test-method> <!-- ProductOrderTest_ShouldCheckoutForValidUser -->
-        <test-method signature="ProductOrderTest_ShouldCheckoutForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.ProductOrderTest@41fecb8b]" started-at="2021-03-13T13:00:54 IST" name="ProductOrderTest_ShouldCheckoutForValidUser" data-provider="LoginCredentials" finished-at="2021-03-13T13:01:12 IST" duration-ms="17876" status="PASS">
+        <test-method status="FAIL" signature="ProductOrderTest_ShouldCheckoutForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.ProductOrderTest@704a52ec]" name="ProductOrderTest_ShouldCheckoutForValidUser" duration-ms="7" started-at="2021-03-17T19:23:20 IST" data-provider="LoginCredentials" finished-at="2021-03-17T19:23:20 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{First_name=HiHello, Email=a@gmail.com, Last_Name= World, DOB="26-08-2000", Mobile="1234567890", Password=jwcbkjbqdc, IsValid=no}]]>
+                <![CDATA[{Email=a@gmail.com, color=Red, Size=s, Product=product-collection-image-404, Quantity=1, City=Nellore, Mobile=1234567893, Last_Name= World, DOB=26-08-2000, Search=jeans, Zipcode=123459, Country=IN, Street=uwvd, Password=jwcbkjbqdc, IsValid=no}]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.htc.automating.test.ProductOrderTest.ProductOrderTest_ShouldCheckoutForValidUser(ProductOrderTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
-            <line>
-              <![CDATA[Entering into login page]]>
-            </line>
-            <line>
-              <![CDATA[Credentials are entered successfully]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on login button successfully]]>
-            </line>
           </reporter-output>
         </test-method> <!-- ProductOrderTest_ShouldCheckoutForValidUser -->
       </class> <!-- com.htc.automating.test.ProductOrderTest -->

@@ -6,11 +6,12 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.htc.automating.base.BaseTest;
+import com.htc.automating.util.ScreenShots;
 
 public class TestListenerHtml extends BaseTest implements ITestListener{
-	//ExtentTestReport extendTest= new ExtentTestReport();
-	//private WebDriver driver;
 	private long start_time;
 	
 	public void onStart(ITestContext context) {
@@ -35,23 +36,18 @@ public class TestListenerHtml extends BaseTest implements ITestListener{
 	public void onTestSuccess(ITestResult result) {
 		System.out.println("*** Executed " + result.getMethod().getMethodName() + " test successfully...");
 		ExtentTestReport.getTest().log(Status.PASS, "Test passed");
-		//ScreenShots shot = new ScreenShots(driver);
-		//shot.capturingScreenShot();
+		ScreenShots shot = new ScreenShots(driver);
+		shot.capturingScreenShot();
 	}
 	
 	public void onTestFailure(ITestResult result) {
 		System.out.println("*** Test execution " + result.getMethod().getMethodName() + " failed...");
 		System.out.println(result.getName());
-		ExtentTestReport.getTest().log(Status.FAIL, "Test Failed");
+		//ExtentTestReport.getTest().log(Status.FAIL, "Test Failed");
 		ScreenShots shot = new ScreenShots(driver);  
 		shot.addingScreenshotToReport();
-		//ExtentTestReport.getTest().log(Status.FAIL, MarkupHelper.createLabel(result.getThrowable().getMessage(), ExtentColor.BLUE));
+		ExtentTestReport.getTest().log(Status.FAIL, MarkupHelper.createLabel(result.getThrowable().getMessage(), ExtentColor.BLUE));
 		
-		try {
-			Throwable msg=result.getThrowable();
-		}catch(Throwable msg) {
-			msg.printStackTrace();
-		}
 	}
 
 	public void onTestSkipped(ITestResult result) {

@@ -16,20 +16,16 @@ import com.htc.reports.TestListenerHtml;
 public class ProductOrderTest extends BaseTest{
 		
 		@Test(dataProvider = "LoginCredentials",dataProviderClass = com.htc.automating.base.BaseDataProvider.class)
-		public void ProductOrderTest_ShouldCheckoutForValidUser(Map<Object,Object> mapdata) throws IOException {
-			login.doLogIn(mapdata.get("Email").toString(), mapdata.get("Password").toString());
+		public void ProductOrderTest_ShouldCheckoutForValidUser(Map<String,String> mapdata) throws IOException {
+			login.doLogIn(mapdata.get("Email"), mapdata.get("Password"));
 			if(mapdata.get("IsValid").equals("yes")) {
-				ProductOrderPage order= new ProductOrderPage(driver);
-				order.orderingTheProduct();
-				CheckoutPage checkout = new CheckoutPage(driver);
-				checkout.doCheckOut();
+				order.orderingTheProduct(mapdata.get("Product"),mapdata.get("color"),mapdata.get("Size"),mapdata.get("Quantity"),mapdata.get("Search"));
+				checkout.doCheckOut(mapdata.get("Country"),mapdata.get("Zipcode"),mapdata.get("City"),mapdata.get("Street"),mapdata.get("Mobile"));
 				Assert.assertTrue(checkout.isSuccessmsgDisplayed());
-				//login.popupTheSuccessMsg();
 				login.doLogOut();
 			}
 			
 			if(mapdata.get("IsValid").equals("no")) {
-				//Assert.fail();
 				Assert.assertTrue(login.isErrorMsgDisplayed());
 			}	
 		}

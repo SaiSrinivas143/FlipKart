@@ -1,5 +1,8 @@
 package com.htc.automating.pages;
 
+import org.openqa.selenium.ElementNotInteractableException;
+import org.openqa.selenium.ElementNotSelectableException;
+import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,8 +14,8 @@ import com.htc.automating.util.Utitlity;
 
 public class CheckoutPage extends BasePage{
 	
-	public CheckoutPage(WebDriver driver) {
-		super(driver);
+	public CheckoutPage() {
+		super();
 	}
 	
 	private Reporter reporter;
@@ -65,35 +68,45 @@ public class CheckoutPage extends BasePage{
 		cid.selectByValue(id);
 	}
 	
-	public void doCheckOut() {
-		waitUtilThePageLoad();
-		waitUntillTheElementToBeClickable(proceedtocheckoutbutton);
-		this.proceedtocheckoutbutton.click();
-		reporter.log("Checkout button clicked");
+	public void doCheckOut(String country,String zip,String city,String street,String number) throws ElementNotVisibleException{
 		try {
-			waitUntillTheElementToBeClickable(billingaddress);
-			Select nadd=new Select(billingaddress);
-			nadd.selectByVisibleText("New Address");
+			waitUtilThePageLoad();
+			waitUntillTheElementToBeClickable(proceedtocheckoutbutton);
+			this.proceedtocheckoutbutton.click();
+			reporter.log("Checkout button clicked");
+			try {
+				waitUntillTheElementToBeClickable(billingaddress);
+				Select nadd=new Select(billingaddress);
+				nadd.selectByVisibleText("New Address");
+			}
+			finally {
+				this.setCountry(country);
+				this.zipcode.click();
+				this.zipcode.sendKeys(zip);
+				this.city.clear();
+				this.city.sendKeys(city);
+				this.street.sendKeys(street);
+				this.phonenumber.clear();
+				this.phonenumber.sendKeys(number);
+				this.billing.click();
+			}
+			try {
+			//waitUntillTheElementToBeClickable(freeshippingbox);
+			//this.freeshippingbox.click();
+			reporter.log("Got address for shipping the product");
+			}finally {
+			waitUntillTheElementToBeClickable( freeshingcontinuebutton);
+			this.freeshingcontinuebutton.click();
+			}
+			waitUntillTheElementToBeClickable( paymentbutton);
+			this.paymentbutton.click();
+			reporter.log("payment is successful");
+			waitUntillTheElementToBeClickable(reviewbutton);
+			this.reviewbutton.click();
+		}catch(ElementNotInteractableException e) {
+			e.printStackTrace();
+		}catch(ElementNotSelectableException e) {
+			e.printStackTrace();
 		}
-		finally {
-			this.setCountry("IN");
-			this.zipcode.sendKeys("65468");
-			this.city.clear();
-			this.city.sendKeys("nellore");
-			this.street.sendKeys("lwuhf654");
-			this.phonenumber.clear();
-			this.phonenumber.sendKeys("6468484654");
-			this.billing.click();
-		}
-		waitUntillTheElementToBeClickable(freeshippingbox);
-		this.freeshippingbox.click();
-		reporter.log("Got address for shipping the product");
-		waitUntillTheElementToBeClickable( freeshingcontinuebutton);
-		this.freeshingcontinuebutton.click();
-		waitUntillTheElementToBeClickable( paymentbutton);
-		this.paymentbutton.click();
-		reporter.log("payment is successful");
-		waitUntillTheElementToBeClickable(reviewbutton);
-		this.reviewbutton.click();	
 	}
 }
