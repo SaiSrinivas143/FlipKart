@@ -8,12 +8,12 @@ import com.htc.dataprovider.XlFileReader;
 
 public class BaseDataProvider{
 	
-	private XlFileReader dpu;
+	private XlFileReader xlfile;
 	
-	@DataProvider(name="LoginCredentials")
+	@DataProvider(name="madison_form_data")
 	public Object[][] getDataArray() throws IOException{
-		dpu = new XlFileReader();
-		return dpu.getDataArray(GlobalVariables.XL_INPUT_PATH, GlobalVariables.SHEET_NAME);
+		xlfile = new XlFileReader();
+		return xlfile.getDataArray(GlobalVariables.XL_INPUT_PATH, GlobalVariables.SHEET_NAME);
 	}
 }
 

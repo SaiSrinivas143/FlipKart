@@ -3,22 +3,19 @@ package com.htc.automating.pages;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.ElementNotSelectableException;
 import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
 
-import com.htc.automating.util.Utitlity;
-
 public class CheckoutPage extends BasePage{
 	
-	public CheckoutPage() {
-		super();
+	public CheckoutPage(WebDriver driver) {
+		super(driver);
 	}
-	
-	private Reporter reporter;
 
 	@FindBy(xpath="//ul[@class=\"checkout-types top\"]")
 	private WebElement proceedtocheckoutbutton;
@@ -70,10 +67,10 @@ public class CheckoutPage extends BasePage{
 	
 	public void doCheckOut(String country,String zip,String city,String street,String number) throws ElementNotVisibleException{
 		try {
-			waitUtilThePageLoad();
+			utl.waitUtilThePageLoad();
 			waitUntillTheElementToBeClickable(proceedtocheckoutbutton);
 			this.proceedtocheckoutbutton.click();
-			reporter.log("Checkout button clicked");
+			Reporter.log("Checkout button clicked");
 			try {
 				waitUntillTheElementToBeClickable(billingaddress);
 				Select nadd=new Select(billingaddress);
@@ -91,22 +88,24 @@ public class CheckoutPage extends BasePage{
 				this.billing.click();
 			}
 			try {
-			//waitUntillTheElementToBeClickable(freeshippingbox);
-			//this.freeshippingbox.click();
-			reporter.log("Got address for shipping the product");
+			Reporter.log("Got address for shipping the product");
 			}finally {
 			waitUntillTheElementToBeClickable( freeshingcontinuebutton);
 			this.freeshingcontinuebutton.click();
 			}
 			waitUntillTheElementToBeClickable( paymentbutton);
 			this.paymentbutton.click();
-			reporter.log("payment is successful");
+			Reporter.log("payment is successful");
 			waitUntillTheElementToBeClickable(reviewbutton);
 			this.reviewbutton.click();
 		}catch(ElementNotInteractableException e) {
 			e.printStackTrace();
 		}catch(ElementNotSelectableException e) {
 			e.printStackTrace();
-		}
+		}catch(StaleElementReferenceException e) {
+			e.printStackTrace();
+		}catch(WebDriverException e) {
+			e.printStackTrace();
+		} 
 	}
 }

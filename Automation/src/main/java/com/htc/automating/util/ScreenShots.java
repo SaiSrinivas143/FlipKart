@@ -30,10 +30,8 @@ public class ScreenShots {
 			Thread.sleep(5000);
 			FileUtils.copyFile(srcfile, destfile);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -47,16 +45,13 @@ public class ScreenShots {
 			Thread.sleep(5000);
 			FileUtils.copyFile(srcfile, destfile);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		try {
 			ExtentTestReport.getTest().fail("Screenshot",MediaEntityBuilder.createScreenCaptureFromPath(GlobalVariables.HTML_REPORT_PATH).build());
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}		
 	}

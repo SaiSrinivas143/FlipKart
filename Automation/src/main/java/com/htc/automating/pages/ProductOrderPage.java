@@ -8,14 +8,15 @@ import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.ElementNotSelectableException;
 import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Reporter;
 
 public class ProductOrderPage extends BasePage{
 	
-	public ProductOrderPage() {
-		super();
+	public ProductOrderPage(WebDriver driver) {
+		super(driver);
 	}
 
 	private Reporter reporter;
@@ -67,7 +68,7 @@ public class ProductOrderPage extends BasePage{
 	
 	public void orderingTheProduct(String pname,String Color,String Size,String quantity,String Search) throws ElementNotVisibleException{
 		try {
-			waitUtilThePageLoad();
+			utl.waitUtilThePageLoad();
 			waitUntillTheElementToBeClickable(searchbutton);
 			reporter.log("Searching for a product");
 			this.setSearchItem(Search);
@@ -82,10 +83,13 @@ public class ProductOrderPage extends BasePage{
 			finally {
 				this.addtocartbutton.click();
 			}
+			Reporter.log("product is added to cart");
 		}catch(ElementNotInteractableException e) {
 			System.out.println(e.getMessage());
 		}catch(ElementNotSelectableException e) {
 			System.out.println(e.getMessage());
-		}
+		}catch(WebDriverException e) {
+			e.printStackTrace();
+		} 
 	}
 }

@@ -12,7 +12,7 @@ import com.htc.automating.pages.LogInPage;
 import com.htc.automating.pages.ProductOrderPage;
 import com.htc.browsers.BrowserFactory;
 
-public class BaseTest extends GlobalVariables{
+public class BaseTest{
 	
 	public static WebDriver driver;
 	protected static LogInPage login;
@@ -23,14 +23,13 @@ public class BaseTest extends GlobalVariables{
 	@Parameters("browser")  
 	public void setup(String browser) {
 		driver= BrowserFactory.getDriver(browser);
-		driver.get(URL);
+		driver.get(GlobalVariables.URL);
 		driver.manage().window().maximize();
-		login=new LogInPage();
-		order= new ProductOrderPage();
-		checkout =new CheckoutPage();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		login=new LogInPage(driver);
+		order= new ProductOrderPage(driver);
+		checkout =new CheckoutPage(driver);
+		driver.manage().timeouts().implicitlyWait(GlobalVariables.TIMEOUT_TIME, TimeUnit.SECONDS);
 	}
-	
 	
 	@AfterSuite
 	public void tearDown() {

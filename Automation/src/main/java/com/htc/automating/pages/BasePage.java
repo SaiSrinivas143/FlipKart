@@ -10,11 +10,14 @@ import com.htc.automating.base.BaseTest;
 import com.htc.automating.globalvariables.GlobalVariables;
 import com.htc.automating.util.Utitlity;
 
-public class BasePage extends Utitlity{
+public class BasePage {
 	
 	private WebDriverWait wait;
+	protected WebDriver driver;//=BaseTest.driver;
+	protected Utitlity utl = new Utitlity();
 	
-	public BasePage() {
+	public BasePage(WebDriver driver) {
+		this.driver=driver;
 		wait = new WebDriverWait(driver,GlobalVariables.TIMEOUT_TIME);
 		PageFactory.initElements(driver, this);
 	}
