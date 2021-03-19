@@ -11,16 +11,9 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="validAndInvalidLoginTest_ShouldLoginForValidUser"/>
+          <include name="validAndInvalidLoginTest_ShouldLoginForValidUser" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.htc.automating.test.LoginTest -->
-      <class name="com.htc.automating.test.ProductOrderTest">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="ProductOrderTest_ShouldCheckoutForValidUser"/>
-        </methods>
-      </class> <!-- com.htc.automating.test.ProductOrderTest -->
     </classes>
   </test> <!-- should login and purchase the product for valid user(failed) -->
 </suite> <!-- Failed suite [Madison Island Website Test] -->
