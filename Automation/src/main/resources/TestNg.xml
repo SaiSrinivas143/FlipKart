@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Madison Island Website Test">
+<suite name="Flipkart Website Test" >
 
 	<parameter name="browser" value="chrome" />
-
+	
 	<listeners>
-		<listener class-name="com.htc.reports.TestListenerHtml" />
+		<listener class-name="com.htc.automating.util.seleniumutility.listeners.TestListener" />
 	</listeners>
 
 	<test name="should login and purchase the product for valid user">
 
 		<classes>
 			<class name="com.htc.automating.test.LoginTest" />
-			<class name="com.htc.automating.ProductOrderTest" />
+			<class name="com.htc.automating.test.ProfileVerificationTest" />
+			<class name="com.htc.automating.test.MobileNumberVerificationTest" />
+			<class name="com.htc.automating.test.UseMyCurrentLocationFunctionalityTest" />
+			<class name="com.htc.automating.test.AppDownloadTest" />
+			<class name="com.htc.automating.test.SearchFunctionalityTest" /> 
+			<class name="com.htc.automating.test.ProductAddToCartTest" />
+			<class name="com.htc.automating.test.TotalCartValueVerificationTest" />
+			<class name="com.htc.automating.test.CartEmptyTest" />
+			<class name="com.htc.automating.test.ProductCostVerificationTest" />
+			<class name="com.htc.automating.test.TravelTest" />
 		</classes>
 
-	</test> <!-- Test -->
+	</test> <!-- Test -->   
 </suite> <!-- Suite -->

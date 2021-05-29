@@ -1,0 +1,139 @@
+29/05/2021 11:01:10 Flipkart Website Test  Started 
+29/05/2021 11:01:19 com.htc.automating.util.seleniumutility.browsers.BrowserFactory Got Chrome Driver 
+29/05/2021 11:01:34 com.htc.automating.util.javautility.XlFileReader Opening the xl file...  
+29/05/2021 11:01:36 com.htc.automating.util.javautility.XlFileReader Reading the xl file 
+29/05/2021 11:01:36 com.htc.automating.util.javautility.XlFileReader Read the xl file 
+29/05/2021 11:01:36 validLoginTest_ShouldLoginForValidUser Test started 
+29/05/2021 11:01:42 com.htc.automating.pages.LogInPage Entered into login window,entered credential 
+29/05/2021 11:01:53 com.htc.automating.pages.LogInPage Login is Success 
+29/05/2021 11:02:00 validLoginTest_ShouldLoginForValidUser Test completed successfully 
+29/05/2021 11:02:00 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:02:21 com.htc.automating.pages.LogInPage Logout is Success 
+29/05/2021 11:02:21 com.htc.automating.util.javautility.XlFileReader Opening the xl file...  
+29/05/2021 11:02:21 com.htc.automating.util.javautility.XlFileReader Reading the xl file 
+29/05/2021 11:02:21 com.htc.automating.util.javautility.XlFileReader Read the xl file 
+29/05/2021 11:02:21 verifyUserNameAndGender Test started 
+29/05/2021 11:02:25 com.htc.automating.pages.LogInPage Entered into login window,entered credential 
+29/05/2021 11:02:41 com.htc.automating.pages.HomePage  Went to profile page  
+29/05/2021 11:02:51 com.htc.automating.pages.MyProfilePage  Your profile was edited successfully  
+29/05/2021 11:02:54 com.htc.automating.pages.MyProfilePage  Is my profile info correct true 
+29/05/2021 11:02:57 com.htc.automating.pages.MyProfilePage  Is my full name displayed true 
+29/05/2021 11:03:02 verifyUserNameAndGender Test completed successfully 
+29/05/2021 11:03:02 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:03:22 com.htc.automating.pages.LogInPage Logout is Success 
+29/05/2021 11:03:22 com.htc.automating.util.javautility.XlFileReader Opening the xl file...  
+29/05/2021 11:03:22 com.htc.automating.util.javautility.XlFileReader Reading the xl file 
+29/05/2021 11:03:22 com.htc.automating.util.javautility.XlFileReader Read the xl file 
+29/05/2021 11:03:22 verifyUserMobileNumber Test started 
+29/05/2021 11:03:27 com.htc.automating.pages.LogInPage Entered into login window,entered credential 
+29/05/2021 11:03:43 com.htc.automating.pages.HomePage  Went to profile page  
+29/05/2021 11:03:52 verifyUserMobileNumber Test completed successfully 
+29/05/2021 11:03:52 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:04:11 com.htc.automating.pages.LogInPage Logout is Success 
+29/05/2021 11:04:11 com.htc.automating.util.javautility.XlFileReader Opening the xl file...  
+29/05/2021 11:04:11 com.htc.automating.util.javautility.XlFileReader Reading the xl file 
+29/05/2021 11:04:11 com.htc.automating.util.javautility.XlFileReader Read the xl file 
+29/05/2021 11:04:11 shouldLocatePincode_AfterClickOnLocationButton Test started 
+29/05/2021 11:04:15 com.htc.automating.pages.LogInPage Entered into login window,entered credential 
+29/05/2021 11:04:31 com.htc.automating.pages.HomePage  Went to profile page  
+29/05/2021 11:04:34 com.htc.automating.pages.HomePage  Went to address page  
+29/05/2021 11:04:57 shouldLocatePincode_AfterClickOnLocationButton Test completed successfully 
+29/05/2021 11:04:57 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:05:16 com.htc.automating.pages.LogInPage Logout is Success 
+29/05/2021 11:05:16 com.htc.automating.util.javautility.XlFileReader Opening the xl file...  
+29/05/2021 11:05:16 com.htc.automating.util.javautility.XlFileReader Reading the xl file 
+29/05/2021 11:05:16 com.htc.automating.util.javautility.XlFileReader Read the xl file 
+29/05/2021 11:05:16 downloadingAppTest_ForValidUser Test started 
+29/05/2021 11:05:20 com.htc.automating.pages.LogInPage Entered into login window,entered credential 
+29/05/2021 11:05:31 com.htc.automating.pages.LogInPage Login is Success 
+29/05/2021 11:05:42 com.htc.automating.base.BasePage  Switched to window at index of 1 
+29/05/2021 11:05:46 com.htc.automating.pages.AppDownloadPage Opens the google play store page 
+29/05/2021 11:05:52 downloadingAppTest_ForValidUser Test completed successfully 
+29/05/2021 11:05:52 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:05:52 com.htc.automating.base.BasePage  closed all extra windows  
+29/05/2021 11:05:52 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:06:11 com.htc.automating.pages.LogInPage Logout is Success 
+29/05/2021 11:06:11 com.htc.automating.util.javautility.XlFileReader Opening the xl file...  
+29/05/2021 11:06:12 com.htc.automating.util.javautility.XlFileReader Reading the xl file 
+29/05/2021 11:06:12 com.htc.automating.util.javautility.XlFileReader Read the xl file 
+29/05/2021 11:06:12 searchTest_shouldDisplaySameProductsAccordingToSearch Test started 
+29/05/2021 11:06:14 com.htc.automating.pages.LogInPage Entered into login window,entered credential 
+29/05/2021 11:06:32 com.htc.automating.pages.HomePage  Searching for your product  
+29/05/2021 11:06:33 com.htc.automating.pages.HomePage  Checking searching functionality  
+29/05/2021 11:06:38 searchTest_shouldDisplaySameProductsAccordingToSearch Test completed successfully 
+29/05/2021 11:06:38 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:06:58 com.htc.automating.pages.LogInPage Logout is Success 
+29/05/2021 11:06:58 com.htc.automating.util.javautility.XlFileReader Opening the xl file...  
+29/05/2021 11:06:58 com.htc.automating.util.javautility.XlFileReader Reading the xl file 
+29/05/2021 11:06:58 com.htc.automating.util.javautility.XlFileReader Read the xl file 
+29/05/2021 11:06:58 searchTest_shouldDisplaySameProductsAccordingToSearch Test started 
+29/05/2021 11:07:01 com.htc.automating.pages.LogInPage Entered into login window,entered credential 
+29/05/2021 11:07:18 com.htc.automating.pages.HomePage  Searching for your product  
+29/05/2021 11:07:19 com.htc.automating.pages.HomePage  Checking searching functionality  
+29/05/2021 11:07:24 searchTest_shouldDisplaySameProductsAccordingToSearch Test completed successfully 
+29/05/2021 11:07:24 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:07:43 com.htc.automating.pages.LogInPage Logout is Success 
+29/05/2021 11:07:43 com.htc.automating.util.javautility.XlFileReader Opening the xl file...  
+29/05/2021 11:07:44 com.htc.automating.util.javautility.XlFileReader Reading the xl file 
+29/05/2021 11:07:44 com.htc.automating.util.javautility.XlFileReader Read the xl file 
+29/05/2021 11:07:44 shouldAddProductToCart_ForValidUser Test started 
+29/05/2021 11:07:46 com.htc.automating.pages.LogInPage Entered into login window,entered credential 
+29/05/2021 11:08:04 com.htc.automating.pages.HomePage  Searching for your product  
+29/05/2021 11:08:17 com.htc.automating.pages.HomePage  Your product is selected  
+29/05/2021 11:08:27 com.htc.automating.base.BasePage  Switched to window at index of 1 
+29/05/2021 11:08:43 com.htc.automating.pages.ProductDetailsPage  Your product is added to cart successfully  
+29/05/2021 11:08:53 com.htc.automating.pages.CartPage  Entered into cart Page true 
+29/05/2021 11:08:59 shouldAddProductToCart_ForValidUser Test completed successfully 
+29/05/2021 11:08:59 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:08:59 com.htc.automating.base.BasePage  closed all extra windows  
+29/05/2021 11:08:59 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:09:18 com.htc.automating.pages.LogInPage Logout is Success 
+29/05/2021 11:09:18 com.htc.automating.util.javautility.XlFileReader Opening the xl file...  
+29/05/2021 11:09:18 com.htc.automating.util.javautility.XlFileReader Reading the xl file 
+29/05/2021 11:09:18 com.htc.automating.util.javautility.XlFileReader Read the xl file 
+29/05/2021 11:09:18 verifyTheTotalCostOfAllProductsInCart Test started 
+29/05/2021 11:09:21 com.htc.automating.pages.LogInPage Entered into login window,entered credential 
+29/05/2021 11:09:24 com.htc.automating.pages.HomePage  Went to Cart Page  
+29/05/2021 11:09:24 com.htc.automating.pages.CartPage  Is total price correct? true 
+29/05/2021 11:09:24 com.htc.automating.base.BasePage  Navigated to Shopping Cart | Flipkart.com 
+29/05/2021 11:09:29 verifyTheTotalCostOfAllProductsInCart Test completed successfully 
+29/05/2021 11:09:29 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:09:49 com.htc.automating.pages.LogInPage Logout is Success 
+29/05/2021 11:09:49 com.htc.automating.util.javautility.XlFileReader Opening the xl file...  
+29/05/2021 11:09:49 com.htc.automating.util.javautility.XlFileReader Reading the xl file 
+29/05/2021 11:09:49 com.htc.automating.util.javautility.XlFileReader Read the xl file 
+29/05/2021 11:09:49 removingProductsFromCartForValidUser Test started 
+29/05/2021 11:09:52 com.htc.automating.pages.LogInPage Entered into login window,entered credential 
+29/05/2021 11:09:56 com.htc.automating.pages.HomePage  Went to Cart Page  
+29/05/2021 11:10:17 com.htc.automating.pages.CartPage  Your Cart is empty now.  
+29/05/2021 11:10:32 com.htc.automating.pages.CartPage  Your Cart is empty now.  
+29/05/2021 11:10:47 com.htc.automating.pages.CartPage  Your Cart is empty now.  
+29/05/2021 11:10:47 com.htc.automating.pages.CartPage  Are u removed all the products from cart true 
+29/05/2021 11:10:47 com.htc.automating.base.BasePage  Navigated to Shopping Cart | Flipkart.com 
+29/05/2021 11:10:52 removingProductsFromCartForValidUser Test completed successfully 
+29/05/2021 11:10:52 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:11:11 com.htc.automating.pages.LogInPage Logout is Success 
+29/05/2021 11:11:11 com.htc.automating.util.javautility.XlFileReader Opening the xl file...  
+29/05/2021 11:11:12 com.htc.automating.util.javautility.XlFileReader Reading the xl file 
+29/05/2021 11:11:12 com.htc.automating.util.javautility.XlFileReader Read the xl file 
+29/05/2021 11:11:12 verifyCostInProductDescriptionAndOrderSummary Test started 
+29/05/2021 11:11:14 com.htc.automating.pages.LogInPage Entered into login window,entered credential 
+29/05/2021 11:11:32 com.htc.automating.pages.HomePage  Searching for your product  
+29/05/2021 11:11:45 com.htc.automating.pages.HomePage  Your product is selected  
+29/05/2021 11:12:10 com.htc.automating.base.BasePage  Switched to window at index of 1 
+29/05/2021 11:12:25 com.htc.automating.pages.ProductDetailsPage  clicked on buynow button  
+29/05/2021 11:12:43 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:12:48 verifyCostInProductDescriptionAndOrderSummary Test completed successfully 
+29/05/2021 11:12:48 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:12:49 com.htc.automating.base.BasePage  closed all extra windows  
+29/05/2021 11:12:49 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:13:08 com.htc.automating.pages.LogInPage Logout is Success 
+29/05/2021 11:13:08 com.htc.automating.util.javautility.XlFileReader Opening the xl file...  
+29/05/2021 11:13:08 com.htc.automating.util.javautility.XlFileReader Reading the xl file 
+29/05/2021 11:13:08 com.htc.automating.util.javautility.XlFileReader Read the xl file 
+29/05/2021 11:13:08 flightsAvailabilityTest Test started 
+29/05/2021 11:13:12 com.htc.automating.pages.LogInPage Entered into login window,entered credential 
+29/05/2021 11:13:58 flightsAvailabilityTest Test completed successfully 
+29/05/2021 11:13:58 com.htc.automating.base.BasePage  Switched to window at index of 0 
+29/05/2021 11:14:18 com.htc.automating.pages.LogInPage Logout is Success 
+29/05/2021 11:14:21 Flipkart Website Test  Ended 

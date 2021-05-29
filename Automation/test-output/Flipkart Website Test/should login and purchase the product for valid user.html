@@ -1,0 +1,260 @@
+<html>
+<head>
+<title>TestNG:  should login and purchase the product for valid user</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>should login and purchase the product for valid user</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 29 11:01:33 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>764 seconds (764042 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.htc.automating.test.AppDownloadTest.downloadingAppTest_ForValidUser()'><b>downloadingAppTest_ForValidUser</b><br>Test class: com.htc.automating.test.AppDownloadTest<br>Parameters: {Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}<br/>
+<a href="#Output-1335288964" onClick='toggleBox("Output-1335288964", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1335288964" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1335288964">
+Login with the user 8919730846<br/>
+Comfirming the login function true<br/>
+Went to download page <br/>
+Checking for app is downloadable true<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>com.htc.automating.test.AppDownloadTest@4bff7da0</td></tr>
+<tr>
+<td title='com.htc.automating.test.TravelTest.flightsAvailabilityTest()'><b>flightsAvailabilityTest</b><br>Test class: com.htc.automating.test.TravelTest<br>Parameters: {Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}<br/>
+<a href="#Output-1800679184" onClick='toggleBox("Output-1800679184", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1800679184" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1800679184">
+Login with the user 8919730846<br/>
+went to travel page<br/>
+</div>
+</td>
+<td></td>
+<td>44</td>
+<td>com.htc.automating.test.TravelTest@1f760b47</td></tr>
+<tr>
+<td title='com.htc.automating.test.CartEmptyTest.removingProductsFromCartForValidUser()'><b>removingProductsFromCartForValidUser</b><br>Test class: com.htc.automating.test.CartEmptyTest<br>Parameters: {Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}<br/>
+<a href="#Output-286184739" onClick='toggleBox("Output-286184739", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-286184739" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-286184739">
+Login with the user 8919730846<br/>
+Went to cart page <br/>
+Able to remove all products in cart <br/>
+Able to remove all products in cart <br/>
+Able to remove all products in cart <br/>
+Checking for cart empty true<br/>
+User 8919730846 logged out<br/>
+</div>
+</td>
+<td></td>
+<td>57</td>
+<td>com.htc.automating.test.CartEmptyTest@776a6d9b</td></tr>
+<tr>
+<td title='com.htc.automating.test.SearchFunctionalityTest.searchTest_shouldDisplaySameProductsAccordingToSearch()'><b>searchTest_shouldDisplaySameProductsAccordingToSearch</b><br>Test class: com.htc.automating.test.SearchFunctionalityTest<br>Parameters: {Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}<br/>
+<a href="#Output-1898601956" onClick='toggleBox("Output-1898601956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1898601956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1898601956">
+Login with the user 8919730846<br/>
+searching for Lenovo Mobile<br/>
+Checking for searching functionality true<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.htc.automating.test.SearchFunctionalityTest@3f1d2e23</td></tr>
+<tr>
+<td title='com.htc.automating.test.SearchFunctionalityTest.searchTest_shouldDisplaySameProductsAccordingToSearch()'><b>searchTest_shouldDisplaySameProductsAccordingToSearch</b><br>Test class: com.htc.automating.test.SearchFunctionalityTest<br>Parameters: {Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}<br/>
+<a href="#Output-835220003" onClick='toggleBox("Output-835220003", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-835220003" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-835220003">
+Login with the user 8919730846<br/>
+searching for Lenovo Mobile<br/>
+Checking for searching functionality true<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.htc.automating.test.SearchFunctionalityTest@3f1d2e23</td></tr>
+<tr>
+<td title='com.htc.automating.test.ProductAddToCartTest.shouldAddProductToCart_ForValidUser()'><b>shouldAddProductToCart_ForValidUser</b><br>Test class: com.htc.automating.test.ProductAddToCartTest<br>Parameters: {Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}<br/>
+<a href="#Output-2008852182" onClick='toggleBox("Output-2008852182", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2008852182" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2008852182">
+Login with the user 8919730846<br/>
+searching for OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset<br/>
+Clicked on OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset<br/>
+Selected required color of product is Reverb Red<br/>
+Product is added to cart <br/>
+Checking for cart page visibility true<br/>
+</div>
+</td>
+<td></td>
+<td>69</td>
+<td>com.htc.automating.test.ProductAddToCartTest@536dbea0</td></tr>
+<tr>
+<td title='com.htc.automating.test.UseMyCurrentLocationFunctionalityTest.shouldLocatePincode_AfterClickOnLocationButton()'><b>shouldLocatePincode_AfterClickOnLocationButton</b><br>Test class: com.htc.automating.test.UseMyCurrentLocationFunctionalityTest<br>Parameters: {Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}<br/>
+<a href="#Output-464852114" onClick='toggleBox("Output-464852114", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-464852114" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-464852114">
+Login with the user 8919730846<br/>
+Went to profile page <br/>
+Went to address page <br/>
+Checking for current location button working false<br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>com.htc.automating.test.UseMyCurrentLocationFunctionalityTest@638ef7ed</td></tr>
+<tr>
+<td title='com.htc.automating.test.LoginTest.validLoginTest_ShouldLoginForValidUser()'><b>validLoginTest_ShouldLoginForValidUser</b><br>Test class: com.htc.automating.test.LoginTest<br>Parameters: {Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}<br/>
+<a href="#Output-1291485735" onClick='toggleBox("Output-1291485735", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1291485735" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1291485735">
+Login with the user 8919730846<br/>
+Comfirming the login function true<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.htc.automating.test.LoginTest@3e62d773</td></tr>
+<tr>
+<td title='com.htc.automating.test.ProductCostVerificationTest.verifyCostInProductDescriptionAndOrderSummary()'><b>verifyCostInProductDescriptionAndOrderSummary</b><br>Test class: com.htc.automating.test.ProductCostVerificationTest<br>Parameters: {Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}<br/>
+<a href="#Output-1328894401" onClick='toggleBox("Output-1328894401", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1328894401" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1328894401">
+Login with the user 8919730846<br/>
+searching for OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset<br/>
+Clicked on OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset<br/>
+cost of required product in product description page is  1999<br/>
+Selected required color of product is Reverb Red<br/>
+Clicked on buy now option entered into order summary page <br/>
+cost of required product in order summary page is 1999<br/>
+</div>
+</td>
+<td></td>
+<td>91</td>
+<td>com.htc.automating.test.ProductCostVerificationTest@21d03963</td></tr>
+<tr>
+<td title='com.htc.automating.test.TotalCartValueVerificationTest.verifyTheTotalCostOfAllProductsInCart()'><b>verifyTheTotalCostOfAllProductsInCart</b><br>Test class: com.htc.automating.test.TotalCartValueVerificationTest<br>Parameters: {Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}<br/>
+<a href="#Output-32888623" onClick='toggleBox("Output-32888623", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32888623" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32888623">
+Login with the user 8919730846<br/>
+Went to cart page <br/>
+Checking for cart value true<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.htc.automating.test.TotalCartValueVerificationTest@47c81abf</td></tr>
+<tr>
+<td title='com.htc.automating.test.MobileNumberVerificationTest.verifyUserMobileNumber()'><b>verifyUserMobileNumber</b><br>Test class: com.htc.automating.test.MobileNumberVerificationTest<br>Parameters: {Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}<br/>
+<a href="#Output-679137498" onClick='toggleBox("Output-679137498", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-679137498" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-679137498">
+Login with the user 8919730846<br/>
+Went to profile page <br/>
+Checking for mobile number true<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.htc.automating.test.MobileNumberVerificationTest@7283d3eb</td></tr>
+<tr>
+<td title='com.htc.automating.test.ProfileVerificationTest.verifyUserNameAndGender()'><b>verifyUserNameAndGender</b><br>Test class: com.htc.automating.test.ProfileVerificationTest<br>Parameters: {Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}<br/>
+<a href="#Output-453940999" onClick='toggleBox("Output-453940999", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-453940999" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-453940999">
+Login with the user 8919730846<br/>
+Went to profile page <br/>
+Edited profile info <br/>
+Checking for profile info true<br/>
+Checking for full name true<br/>
+</div>
+</td>
+<td></td>
+<td>36</td>
+<td>com.htc.automating.test.ProfileVerificationTest@4ef74c30</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,49 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results ignored="20" total="32" passed="12" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Entering into login page]]>
+      <![CDATA[Open https://www.flipkart.com/]]>
     </line>
     <line>
-      <![CDATA[Credentials are entered successfully]]>
+      <![CDATA[ Window maximized ]]>
     </line>
     <line>
-      <![CDATA[Clicked on login button successfully]]>
+      <![CDATA[Login with the user 8919730846]]>
     </line>
     <line>
-      <![CDATA[Entering into login page]]>
+      <![CDATA[Comfirming the login function true]]>
     </line>
     <line>
-      <![CDATA[Credentials are entered successfully]]>
+      <![CDATA[Login with the user 8919730846]]>
     </line>
     <line>
-      <![CDATA[Clicked on login button successfully]]>
+      <![CDATA[Went to profile page ]]>
     </line>
     <line>
-      <![CDATA[Entering into login page]]>
+      <![CDATA[Edited profile info ]]>
     </line>
     <line>
-      <![CDATA[Credentials are entered successfully]]>
+      <![CDATA[Checking for profile info true]]>
     </line>
     <line>
-      <![CDATA[Clicked on login button successfully]]>
+      <![CDATA[Checking for full name true]]>
     </line>
     <line>
-      <![CDATA[Entering into login page]]>
+      <![CDATA[Login with the user 8919730846]]>
     </line>
     <line>
-      <![CDATA[Credentials are entered successfully]]>
+      <![CDATA[Went to profile page ]]>
     </line>
     <line>
-      <![CDATA[Clicked on login button successfully]]>
+      <![CDATA[Checking for mobile number true]]>
+    </line>
+    <line>
+      <![CDATA[Login with the user 8919730846]]>
+    </line>
+    <line>
+      <![CDATA[Went to profile page ]]>
+    </line>
+    <line>
+      <![CDATA[Went to address page ]]>
+    </line>
+    <line>
+      <![CDATA[Checking for current location button working false]]>
+    </line>
+    <line>
+      <![CDATA[Login with the user 8919730846]]>
+    </line>
+    <line>
+      <![CDATA[Comfirming the login function true]]>
+    </line>
+    <line>
+      <![CDATA[Went to download page ]]>
+    </line>
+    <line>
+      <![CDATA[Checking for app is downloadable true]]>
+    </line>
+    <line>
+      <![CDATA[Login with the user 8919730846]]>
+    </line>
+    <line>
+      <![CDATA[searching for Lenovo Mobile]]>
+    </line>
+    <line>
+      <![CDATA[Checking for searching functionality true]]>
+    </line>
+    <line>
+      <![CDATA[Login with the user 8919730846]]>
+    </line>
+    <line>
+      <![CDATA[searching for Lenovo Mobile]]>
+    </line>
+    <line>
+      <![CDATA[Checking for searching functionality true]]>
+    </line>
+    <line>
+      <![CDATA[Login with the user 8919730846]]>
+    </line>
+    <line>
+      <![CDATA[searching for OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset]]>
+    </line>
+    <line>
+      <![CDATA[Selected required color of product is Reverb Red]]>
+    </line>
+    <line>
+      <![CDATA[Product is added to cart ]]>
+    </line>
+    <line>
+      <![CDATA[Checking for cart page visibility true]]>
+    </line>
+    <line>
+      <![CDATA[Login with the user 8919730846]]>
+    </line>
+    <line>
+      <![CDATA[Went to cart page ]]>
+    </line>
+    <line>
+      <![CDATA[Checking for cart value true]]>
+    </line>
+    <line>
+      <![CDATA[Login with the user 8919730846]]>
+    </line>
+    <line>
+      <![CDATA[Went to cart page ]]>
+    </line>
+    <line>
+      <![CDATA[Able to remove all products in cart ]]>
+    </line>
+    <line>
+      <![CDATA[Able to remove all products in cart ]]>
+    </line>
+    <line>
+      <![CDATA[Able to remove all products in cart ]]>
+    </line>
+    <line>
+      <![CDATA[Checking for cart empty true]]>
+    </line>
+    <line>
+      <![CDATA[User 8919730846 logged out]]>
+    </line>
+    <line>
+      <![CDATA[Login with the user 8919730846]]>
+    </line>
+    <line>
+      <![CDATA[searching for OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset]]>
+    </line>
+    <line>
+      <![CDATA[cost of required product in product description page is  1999]]>
+    </line>
+    <line>
+      <![CDATA[Selected required color of product is Reverb Red]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on buy now option entered into order summary page ]]>
+    </line>
+    <line>
+      <![CDATA[cost of required product in order summary page is 1999]]>
+    </line>
+    <line>
+      <![CDATA[Login with the user 8919730846]]>
+    </line>
+    <line>
+      <![CDATA[went to travel page]]>
+    </line>
+    <line>
+      <![CDATA[driver closed ]]>
     </line>
   </reporter-output>
-  <suite name="Madison Island Website Test" duration-ms="122836" started-at="2021-03-19T13:44:19 IST" finished-at="2021-03-19T13:46:22 IST">
+  <suite started-at="2021-05-29T11:01:33 IST" name="Flipkart Website Test" finished-at="2021-05-29T11:14:18 IST" duration-ms="764042">
     <groups>
     </groups>
-    <test name="should login and purchase the product for valid user" duration-ms="122836" started-at="2021-03-19T13:44:19 IST" finished-at="2021-03-19T13:46:22 IST">
+    <test started-at="2021-05-29T11:01:33 IST" name="should login and purchase the product for valid user" finished-at="2021-05-29T11:14:18 IST" duration-ms="764042">
+      <class name="com.htc.automating.test.MobileNumberVerificationTest">
+        <test-method signature="verifyUserMobileNumber(java.util.Map)[pri:0, instance:com.htc.automating.test.MobileNumberVerificationTest@7283d3eb]" started-at="2021-05-29T11:03:22 IST" name="verifyUserMobileNumber" data-provider="madison_form_data" finished-at="2021-05-29T11:03:46 IST" duration-ms="23959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login with the user 8919730846]]>
+            </line>
+            <line>
+              <![CDATA[Went to profile page ]]>
+            </line>
+            <line>
+              <![CDATA[Checking for mobile number true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserMobileNumber -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.htc.automating.test.MobileNumberVerificationTest@7283d3eb]" started-at="2021-05-29T11:03:52 IST" name="Logout" finished-at="2021-05-29T11:04:11 IST" duration-ms="19340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.htc.automating.test.MobileNumberVerificationTest -->
       <class name="com.htc.automating.test.LoginTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.htc.automating.test.LoginTest@e320068]" name="setup" is-config="true" duration-ms="19532" started-at="2021-03-19T13:44:00 IST" finished-at="2021-03-19T13:44:19 IST">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.htc.automating.test.LoginTest@3e62d773]" started-at="2021-05-29T11:01:10 IST" name="setup" finished-at="2021-05-29T11:01:33 IST" duration-ms="23002" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,93 +198,343 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Open https://www.flipkart.com/]]>
+            </line>
+            <line>
+              <![CDATA[ Window maximized ]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@e320068]" name="validAndInvalidLoginTest_ShouldLoginForValidUser" duration-ms="27590" started-at="2021-03-19T13:44:22 IST" data-provider="madison_form_data" finished-at="2021-03-19T13:44:50 IST">
+        <test-method signature="validLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@3e62d773]" started-at="2021-05-29T11:01:36 IST" name="validLoginTest_ShouldLoginForValidUser" data-provider="madison_form_data" finished-at="2021-05-29T11:01:53 IST" duration-ms="16906" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Email=abcdefghijklmnopqrstuv@gmail.com, color=Red, Size=s, Product=product-collection-image-404, Quantity=1, City=Nellore, Mobile=1234567890, Last_Name=Devasena, DOB=23-08-2000, Search=jeans, Zipcode=123456, Country=IN, Street=uwvd, Password=password1, IsValid=yes}]]>
+                <![CDATA[{Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Entering into login page]]>
+              <![CDATA[Login with the user 8919730846]]>
             </line>
             <line>
-              <![CDATA[Credentials are entered successfully]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on login button successfully]]>
+              <![CDATA[Comfirming the login function true]]>
             </line>
           </reporter-output>
-        </test-method> <!-- validAndInvalidLoginTest_ShouldLoginForValidUser -->
-        <test-method status="PASS" signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@e320068]" name="validAndInvalidLoginTest_ShouldLoginForValidUser" duration-ms="24425" started-at="2021-03-19T13:44:58 IST" data-provider="madison_form_data" finished-at="2021-03-19T13:45:22 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Email=abcdefghijklmnopqrstu@gmail.com, color=Black, Size=s, Product=product-collection-image-417, Quantity=1, City=Nellore, Mobile=1234567891, Last_Name=Devasena, DOB=24-08-2000, Search=jeans, Zipcode=123457, Country=IN, Street=uwvd, Password=password1, IsValid=yes}]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- validLoginTest_ShouldLoginForValidUser -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.htc.automating.test.LoginTest@3e62d773]" started-at="2021-05-29T11:02:00 IST" name="Logout" finished-at="2021-05-29T11:02:21 IST" duration-ms="20251" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Entering into login page]]>
-            </line>
-            <line>
-              <![CDATA[Credentials are entered successfully]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on login button successfully]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- validAndInvalidLoginTest_ShouldLoginForValidUser -->
-        <test-method status="PASS" signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@e320068]" name="validAndInvalidLoginTest_ShouldLoginForValidUser" duration-ms="25184" started-at="2021-03-19T13:45:28 IST" data-provider="madison_form_data" finished-at="2021-03-19T13:45:53 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Email=abcdefghijkpqrstuv@gmail.com, color=Red, Size=s, Product=product-collection-image-404, Quantity=1, City=Nellore, Mobile=1234567892, Last_Name=Devasena, DOB=25-08-2000, Search=jeans, Zipcode=123458, Country=IN, Street=uwvd, Password=password1, IsValid=yes}]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.htc.automating.test.LoginTest@3e62d773]" started-at="2021-05-29T11:14:18 IST" name="tearDown" finished-at="2021-05-29T11:14:20 IST" duration-ms="2440" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Entering into login page]]>
+              <![CDATA[driver closed ]]>
             </line>
-            <line>
-              <![CDATA[Credentials are entered successfully]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on login button successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validAndInvalidLoginTest_ShouldLoginForValidUser -->
-        <test-method status="PASS" signature="validAndInvalidLoginTest_ShouldLoginForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.LoginTest@e320068]" name="validAndInvalidLoginTest_ShouldLoginForValidUser" duration-ms="17876" started-at="2021-03-19T13:45:59 IST" data-provider="madison_form_data" finished-at="2021-03-19T13:46:16 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Email=a@gmail.com, color=Red, Size=s, Product=product-collection-image-404, Quantity=1, City=Nellore, Mobile=1234567893, Last_Name= World, DOB=26-08-2000, Search=jeans, Zipcode=123459, Country=IN, Street=uwvd, Password=jwcbkjbqdc, IsValid=no}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Entering into login page]]>
-            </line>
-            <line>
-              <![CDATA[Credentials are entered successfully]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on login button successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validAndInvalidLoginTest_ShouldLoginForValidUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.htc.automating.test.LoginTest@e320068]" name="tearDown" is-config="true" duration-ms="606" started-at="2021-03-19T13:46:23 IST" finished-at="2021-03-19T13:46:24 IST">
-          <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.htc.automating.test.LoginTest -->
+      <class name="com.htc.automating.test.SearchFunctionalityTest">
+        <test-method signature="searchTest_shouldDisplaySameProductsAccordingToSearch(java.util.Map)[pri:0, instance:com.htc.automating.test.SearchFunctionalityTest@3f1d2e23]" started-at="2021-05-29T11:06:12 IST" name="searchTest_shouldDisplaySameProductsAccordingToSearch" data-provider="madison_form_data" finished-at="2021-05-29T11:06:33 IST" duration-ms="21421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login with the user 8919730846]]>
+            </line>
+            <line>
+              <![CDATA[searching for Lenovo Mobile]]>
+            </line>
+            <line>
+              <![CDATA[Checking for searching functionality true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTest_shouldDisplaySameProductsAccordingToSearch -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.htc.automating.test.SearchFunctionalityTest@3f1d2e23]" started-at="2021-05-29T11:06:38 IST" name="Logout" finished-at="2021-05-29T11:06:58 IST" duration-ms="19340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="searchTest_shouldDisplaySameProductsAccordingToSearch(java.util.Map)[pri:0, instance:com.htc.automating.test.SearchFunctionalityTest@3f1d2e23]" started-at="2021-05-29T11:06:58 IST" name="searchTest_shouldDisplaySameProductsAccordingToSearch" data-provider="madison_form_data" finished-at="2021-05-29T11:07:19 IST" duration-ms="21027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login with the user 8919730846]]>
+            </line>
+            <line>
+              <![CDATA[searching for Lenovo Mobile]]>
+            </line>
+            <line>
+              <![CDATA[Checking for searching functionality true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTest_shouldDisplaySameProductsAccordingToSearch -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.htc.automating.test.SearchFunctionalityTest@3f1d2e23]" started-at="2021-05-29T11:07:24 IST" name="Logout" finished-at="2021-05-29T11:07:43 IST" duration-ms="19248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.htc.automating.test.SearchFunctionalityTest -->
+      <class name="com.htc.automating.test.TotalCartValueVerificationTest">
+        <test-method signature="verifyTheTotalCostOfAllProductsInCart(java.util.Map)[pri:0, instance:com.htc.automating.test.TotalCartValueVerificationTest@47c81abf]" started-at="2021-05-29T11:09:18 IST" name="verifyTheTotalCostOfAllProductsInCart" data-provider="madison_form_data" finished-at="2021-05-29T11:09:24 IST" duration-ms="5685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login with the user 8919730846]]>
+            </line>
+            <line>
+              <![CDATA[Went to cart page ]]>
+            </line>
+            <line>
+              <![CDATA[Checking for cart value true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheTotalCostOfAllProductsInCart -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.htc.automating.test.TotalCartValueVerificationTest@47c81abf]" started-at="2021-05-29T11:09:29 IST" name="Logout" finished-at="2021-05-29T11:09:49 IST" duration-ms="19584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.htc.automating.test.TotalCartValueVerificationTest -->
+      <class name="com.htc.automating.test.ProductAddToCartTest">
+        <test-method signature="shouldAddProductToCart_ForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.ProductAddToCartTest@536dbea0]" started-at="2021-05-29T11:07:44 IST" name="shouldAddProductToCart_ForValidUser" data-provider="madison_form_data" finished-at="2021-05-29T11:08:53 IST" duration-ms="69672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login with the user 8919730846]]>
+            </line>
+            <line>
+              <![CDATA[searching for OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset]]>
+            </line>
+            <line>
+              <![CDATA[Selected required color of product is Reverb Red]]>
+            </line>
+            <line>
+              <![CDATA[Product is added to cart ]]>
+            </line>
+            <line>
+              <![CDATA[Checking for cart page visibility true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shouldAddProductToCart_ForValidUser -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.htc.automating.test.ProductAddToCartTest@536dbea0]" started-at="2021-05-29T11:08:59 IST" name="Logout" finished-at="2021-05-29T11:09:18 IST" duration-ms="19612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.htc.automating.test.ProductAddToCartTest -->
+      <class name="com.htc.automating.test.AppDownloadTest">
+        <test-method signature="downloadingAppTest_ForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.AppDownloadTest@4bff7da0]" started-at="2021-05-29T11:05:16 IST" name="downloadingAppTest_ForValidUser" data-provider="madison_form_data" finished-at="2021-05-29T11:05:46 IST" duration-ms="29628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login with the user 8919730846]]>
+            </line>
+            <line>
+              <![CDATA[Comfirming the login function true]]>
+            </line>
+            <line>
+              <![CDATA[Went to download page ]]>
+            </line>
+            <line>
+              <![CDATA[Checking for app is downloadable true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- downloadingAppTest_ForValidUser -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.htc.automating.test.AppDownloadTest@4bff7da0]" started-at="2021-05-29T11:05:52 IST" name="Logout" finished-at="2021-05-29T11:06:11 IST" duration-ms="19543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.htc.automating.test.AppDownloadTest -->
+      <class name="com.htc.automating.test.UseMyCurrentLocationFunctionalityTest">
+        <test-method signature="shouldLocatePincode_AfterClickOnLocationButton(java.util.Map)[pri:0, instance:com.htc.automating.test.UseMyCurrentLocationFunctionalityTest@638ef7ed]" started-at="2021-05-29T11:04:11 IST" name="shouldLocatePincode_AfterClickOnLocationButton" data-provider="madison_form_data" finished-at="2021-05-29T11:04:51 IST" duration-ms="40264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login with the user 8919730846]]>
+            </line>
+            <line>
+              <![CDATA[Went to profile page ]]>
+            </line>
+            <line>
+              <![CDATA[Went to address page ]]>
+            </line>
+            <line>
+              <![CDATA[Checking for current location button working false]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shouldLocatePincode_AfterClickOnLocationButton -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.htc.automating.test.UseMyCurrentLocationFunctionalityTest@638ef7ed]" started-at="2021-05-29T11:04:57 IST" name="Logout" finished-at="2021-05-29T11:05:16 IST" duration-ms="19280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.htc.automating.test.UseMyCurrentLocationFunctionalityTest -->
+      <class name="com.htc.automating.test.CartEmptyTest">
+        <test-method signature="removingProductsFromCartForValidUser(java.util.Map)[pri:0, instance:com.htc.automating.test.CartEmptyTest@776a6d9b]" started-at="2021-05-29T11:09:49 IST" name="removingProductsFromCartForValidUser" data-provider="madison_form_data" finished-at="2021-05-29T11:10:47 IST" duration-ms="57973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login with the user 8919730846]]>
+            </line>
+            <line>
+              <![CDATA[Went to cart page ]]>
+            </line>
+            <line>
+              <![CDATA[Able to remove all products in cart ]]>
+            </line>
+            <line>
+              <![CDATA[Able to remove all products in cart ]]>
+            </line>
+            <line>
+              <![CDATA[Able to remove all products in cart ]]>
+            </line>
+            <line>
+              <![CDATA[Checking for cart empty true]]>
+            </line>
+            <line>
+              <![CDATA[User 8919730846 logged out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removingProductsFromCartForValidUser -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.htc.automating.test.CartEmptyTest@776a6d9b]" started-at="2021-05-29T11:10:52 IST" name="Logout" finished-at="2021-05-29T11:11:11 IST" duration-ms="19240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.htc.automating.test.CartEmptyTest -->
+      <class name="com.htc.automating.test.TravelTest">
+        <test-method signature="flightsAvailabilityTest(java.util.Map)[pri:0, instance:com.htc.automating.test.TravelTest@1f760b47]" started-at="2021-05-29T11:13:08 IST" name="flightsAvailabilityTest" data-provider="madison_form_data" finished-at="2021-05-29T11:13:53 IST" duration-ms="44770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login with the user 8919730846]]>
+            </line>
+            <line>
+              <![CDATA[went to travel page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flightsAvailabilityTest -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.htc.automating.test.TravelTest@1f760b47]" started-at="2021-05-29T11:13:58 IST" name="Logout" finished-at="2021-05-29T11:14:18 IST" duration-ms="19148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.htc.automating.test.TravelTest -->
+      <class name="com.htc.automating.test.ProfileVerificationTest">
+        <test-method signature="verifyUserNameAndGender(java.util.Map)[pri:0, instance:com.htc.automating.test.ProfileVerificationTest@4ef74c30]" started-at="2021-05-29T11:02:21 IST" name="verifyUserNameAndGender" data-provider="madison_form_data" finished-at="2021-05-29T11:02:57 IST" duration-ms="36177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login with the user 8919730846]]>
+            </line>
+            <line>
+              <![CDATA[Went to profile page ]]>
+            </line>
+            <line>
+              <![CDATA[Edited profile info ]]>
+            </line>
+            <line>
+              <![CDATA[Checking for profile info true]]>
+            </line>
+            <line>
+              <![CDATA[Checking for full name true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameAndGender -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.htc.automating.test.ProfileVerificationTest@4ef74c30]" started-at="2021-05-29T11:03:02 IST" name="Logout" finished-at="2021-05-29T11:03:22 IST" duration-ms="19857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.htc.automating.test.ProfileVerificationTest -->
+      <class name="com.htc.automating.test.ProductCostVerificationTest">
+        <test-method signature="verifyCostInProductDescriptionAndOrderSummary(java.util.Map)[pri:0, instance:com.htc.automating.test.ProductCostVerificationTest@21d03963]" started-at="2021-05-29T11:11:12 IST" name="verifyCostInProductDescriptionAndOrderSummary" data-provider="madison_form_data" finished-at="2021-05-29T11:12:43 IST" duration-ms="91307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Searchingword=Lenovo Mobile, Email=abcdefghijklmnopqrstuv@gmail.com, Category=headphones, color=Reverb Red, Size=s, Product=OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset, Quantity=1, Gender=male, City=Nellore, From=Hyderabad, HYD - Hyderabad, India - Rajiv Gandhi International Airport, India, Mobile=8919730846, Date=28-August-2021, Last_Name=Kollu, Length=10, Checkword=Lenovo, Search=headphones, Zipcode=524201, Country=IN, Street=uwvd, To=Chennai, MAA - Chennai International Airport, India, Fisrt_Name=Sai Srinivas, Password=Abcde54321@, IsValid=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login with the user 8919730846]]>
+            </line>
+            <line>
+              <![CDATA[searching for OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on OnePlus Bullets Wireless Z Bass Edition Bluetooth Headset]]>
+            </line>
+            <line>
+              <![CDATA[cost of required product in product description page is  1999]]>
+            </line>
+            <line>
+              <![CDATA[Selected required color of product is Reverb Red]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on buy now option entered into order summary page ]]>
+            </line>
+            <line>
+              <![CDATA[cost of required product in order summary page is 1999]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCostInProductDescriptionAndOrderSummary -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.htc.automating.test.ProductCostVerificationTest@21d03963]" started-at="2021-05-29T11:12:48 IST" name="Logout" finished-at="2021-05-29T11:13:08 IST" duration-ms="19620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.htc.automating.test.ProductCostVerificationTest -->
     </test> <!-- should login and purchase the product for valid user -->
-  </suite> <!-- Madison Island Website Test -->
+  </suite> <!-- Flipkart Website Test -->
 </testng-results>

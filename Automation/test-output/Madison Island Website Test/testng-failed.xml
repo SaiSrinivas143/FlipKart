@@ -3,7 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Madison Island Website Test]">
   <parameter name="browser" value="chrome"/>
   <listeners>
-    <listener class-name="com.htc.reports.TestListenerHtml"/>
+    <listener class-name="com.htc.automating.util.SeleniumUtility.Listeners.TestListenerHtml"/>
   </listeners>
   <test thread-count="5" name="should login and purchase the product for valid user(failed)">
     <classes>
@@ -11,7 +11,7 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="validAndInvalidLoginTest_ShouldLoginForValidUser" invocation-numbers="1"/>
+          <include name="validAndInvalidLoginTest_ShouldLoginForValidUser"/>
         </methods>
       </class> <!-- com.htc.automating.test.LoginTest -->
     </classes>
